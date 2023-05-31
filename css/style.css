@@ -144,3 +144,18 @@ button:hover {
 .row-span-2 {
     grid-row: span 2;
 }
+
+.sponsors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.aside-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    justify-self: end;
+    justify-content: end;
+    grid-column-start: 2;
+    grid-row-start: span;
+}
